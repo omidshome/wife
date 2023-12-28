@@ -1,0 +1,37 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  box-sizing: border-box;
+  background-image: url("./assets/hearts.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.shape {
+  border-radius: 50%;
+  border: 1px solid purple;
+  box-shadow: 1px 1px 1px purple;
+
+  object-position: 0 -6mm;
+  scale: 1.3;
+
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.title {
+  display: flex;
+  gap: 30px;
+}
+
+.box {
+  border: 2px solid purple;
+  border-radius: 5px;
+  padding: 25px;
+}
