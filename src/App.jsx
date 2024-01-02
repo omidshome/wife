@@ -26,7 +26,7 @@ function App() {
             className="shape fade-in"
             onClick={slidImages}
           />
-          <h2>Mansoureh Abdi</h2>
+          <h2 style={{ color: "navy" }}>Mansoureh Abdi</h2>
         </div>
         <h3 style={{ fontStyle: "italic", marginTop: "2rem" }}>
           I love you so much my mermaid
